@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: monospace;
+}
+body{
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+.count{
+    margin-left: 125px;
+    position: absolute;
+    margin-top: -124px;
+}
+.count h1{
+    font-size: 45px;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 25vh;
+    width: 70vw;
+    /* background-color: aqua; */
+}
+.days{
+    border-radius: 15px;
+    margin: 20px;
+    height: 28vh;
+    display: inline-block;
+    width: 13vw;
+    background: radial-gradient(at 100% 50%, rgba(219, 218, 218, 0.05), rgba(255, 254, 254, 0.5));
+
+}
+.hours{
+    border-radius: 15px;
+    margin: 20px;
+    height: 28vh;
+    display: inline-block;
+    width: 13vw;
+    background: radial-gradient(at 100% 50%, rgba(219, 218, 218, 0.05), rgba(255, 254, 254, 0.5));
+
+}
+.minutes{
+    border-radius: 15px;
+    margin: 20px;
+    height: 28vh;
+    display: inline-block;
+    width: 13vw;
+    background: radial-gradient(at 100% 50%, rgba(219, 218, 218, 0.05), rgba(255, 254, 254, 0.5));
+
+}
+.seconds{
+    border-radius: 15px;
+    margin: 20px;
+    height: 28vh;
+    display: inline-block;
+    width: 13vw;
+    background: radial-gradient(at 100% 50%, rgba(219, 218, 218, 0.05), rgba(255, 254, 254, 0.5));
+
+}
+.show h1{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: teal;
+    height: 8vh;
+    text-align: center;
+    padding: 10px;
+    margin-top: 145px;
+    font-size: 35px;;
+}
+.text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 70px;
+    padding: 30px 40px;
+    position: absolute;
+}
+#hours,
+#minutes,
+#seconds{
+    padding: 30px 55px;
+}
